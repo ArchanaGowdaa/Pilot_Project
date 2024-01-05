@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Click on Login link]]>
+    </line>
+    <line>
+      <![CDATA[Email entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Password entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Jewelery link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on BlackAndWhite link]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on EmailAFriend]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-29T16:06:02 IST" name="Default suite" finished-at="2023-12-29T16:06:14 IST" duration-ms="12479">
+    <groups>
+    </groups>
+    <test started-at="2023-12-29T16:06:02 IST" name="Default test" finished-at="2023-12-29T16:06:14 IST" duration-ms="12479">
+      <class name="Test_Scripts.Demo_Comp_006_Test">
+        <test-method is-config="true" signature="launch()[pri:0, instance:Test_Scripts.Demo_Comp_006_Test@6a84a97d]" started-at="2023-12-29T16:06:02 IST" name="launch" finished-at="2023-12-29T16:06:04 IST" duration-ms="2100" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[Browser is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="loginToapp()[pri:0, instance:Test_Scripts.Demo_Comp_006_Test@6a84a97d]" started-at="2023-12-29T16:06:04 IST" name="loginToapp" finished-at="2023-12-29T16:06:07 IST" duration-ms="3089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToapp -->
+        <test-method signature="JeweleryAddToCart()[pri:0, instance:Test_Scripts.Demo_Comp_006_Test@6a84a97d]" started-at="2023-12-29T16:06:07 IST" name="JeweleryAddToCart" finished-at="2023-12-29T16:06:14 IST" duration-ms="7248" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Login link]]>
+            </line>
+            <line>
+              <![CDATA[Email entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Password entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Jewelery link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on BlackAndWhite link]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on EmailAFriend]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- JeweleryAddToCart -->
+      </class> <!-- Test_Scripts.Demo_Comp_006_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
